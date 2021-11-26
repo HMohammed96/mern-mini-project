@@ -13,10 +13,10 @@ const beerSchema =  new Schema({
         type: String,
         required: true
     },
-    alcoholFree: boolean,
+    alcoholFree: Boolean,
     type: String
 });
 
 const Beer = model('Beer', beerSchema);
 
-module.exports = {'Club' :  Club};
+module.exports = {'Beer' :  Beer};

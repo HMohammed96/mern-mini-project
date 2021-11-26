@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-const {Beer} = require('../persistence/beer.js');
+const {Beer} = require('../../persistence/beer.js');
 
 // CREATES A BEER ROUTE
 router.post('/create', (req, res, next) => {
